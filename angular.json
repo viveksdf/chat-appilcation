@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./bower_components/jquery-emoji-picker/css/jquery.emojipicker.css",
+              "./bower_components/jquery-emoji-picker/css/jquery.emojipicker.a.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./bower_components/socket.io-client/dist/socket.io.js",
+              "./bower_components/jquery-emoji-picker/js/jquery.emojipicker.js",
+              "./bower_components/jquery-emoji-picker/js/jquery.emojipicker.js",
+              "./bower_components/jquery-emoji-picker/js/jquery.emojis.js"
+            ]
           },
           "configurations": {
             "production": {
